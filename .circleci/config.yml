@@ -5,7 +5,6 @@ jobs:
       - image: circleci/ruby:2.4.1-node-browser
     
     steps:
-      - checkout
       - run:
           name: Which bundler?
           command: echo Hello, world
